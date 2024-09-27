@@ -18,12 +18,13 @@
         />
       </button>
       <div class="header__info">
-        <div style="display: flex; align-items: center; gap: 16px">
+        <div style="" class="header__logo">
           <span class="header__divider"></span>
           <img
             src="./assets/img/logo.png"
             alt="CPS Logo"
-            class="header__logo"
+            width="96"
+            height="50"
           />
         </div>
         <div class="header__action-btns">
@@ -82,13 +83,25 @@
       </div>
       <aside>
         <nav>
-          <ul class="main__nav">
-            <li class="nav__link nav__link--active">Ремонтируемые бренды</li>
-            <li class="nav__link">Дополнительные услуги</li>
-            <li class="nav__link">Цены на услуги</li>
-            <li class="nav__link">Адреса сервисных центров</li>
-            <li class="nav__link">Специальные центры</li>
-            <li class="nav__link">Отзывы</li>
+          <ul class="nav__links">
+            <li class="nav__link nav__link--active">
+              <a href="#"> Ремонтируемые бренды </a>
+            </li>
+            <li class="nav__link">
+              <a href="#"> Дополнительные услуги </a>
+            </li>
+            <li class="nav__link">
+              <a href="#"> Цены на услуги </a>
+            </li>
+            <li class="nav__link">
+              <a href="#"> Адреса сервисных центров </a>
+            </li>
+            <li class="nav__link">
+              <a href="#"> Специальные центры </a>
+            </li>
+            <li class="nav__link">
+              <a href="#"> Отзывы </a>
+            </li>
           </ul>
         </nav>
       </aside>
@@ -103,10 +116,10 @@
             Мы успешно работаем с 1992 года и заслужили репутацию надежного
             партнера
           </p>
-          <a href="#" class="article__link"
-            ><img src="./assets/icons/double-chevron-down.svg" alt="" />Читать
-            далее</a
-          >
+          <button type="button" class="article__link">
+            <img src="./assets/icons/double-chevron-down.svg" alt="" />Читать
+            далее
+          </button>
         </div>
         <img
           src="./assets/img/image_article.png"
